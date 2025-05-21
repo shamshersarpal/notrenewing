@@ -33,7 +33,7 @@ export default function Header() {
                   NotRenewing.com
                 </span>
               </a>
-            </Link>
+            </Link>                        
 
             <div className="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse">
               <div className="flex items-center space-x-4">
