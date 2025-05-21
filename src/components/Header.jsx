@@ -26,16 +26,16 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-white py-2 shadow">
         <nav className="w-full z-20">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-1">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:p-4 py-1 p-2">
             <Link href="/" passHref legacyBehavior>
               <a className="flex items-center space-x-3 rtl:space-x-reverse">
-                <span className="text-2xl font-bold text-brand-blue">
+                <span className="lg:text-2xl text-[16px] font-bold text-brand-blue">
                   NotRenewing.com
                 </span>
               </a>
             </Link>
 
-            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <div className="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse">
               <div className="flex items-center space-x-4">
                 <button
                   onClick={() => setShowSignIn(true)}
