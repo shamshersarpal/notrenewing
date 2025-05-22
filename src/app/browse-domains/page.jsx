@@ -1,7 +1,7 @@
 import DomainSearch from "@/components/CondensedView";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Pagination from "@/components/pagination";
+import Pagination from "@/components/Pagination";
 
 export default function BrowseDomains() {
   return (
