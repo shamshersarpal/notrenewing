@@ -33,7 +33,7 @@ export default function Header() {
                   NotRenewing.com
                 </span>
               </a>
-            </Link>                        
+            </Link>
 
             <div className="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse">
               <div className="flex items-center space-x-4">
@@ -99,7 +99,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" passHref legacyBehavior>
+                  <Link href="browse-domains" passHref legacyBehavior>
                     <a
                       onClick={() => handleItemClick("Browse")}
                       className={`block py-2 px-3 rounded-sm md:p-0 ${

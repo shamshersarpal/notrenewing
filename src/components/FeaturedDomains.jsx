@@ -4,6 +4,7 @@ export default function FeaturedDomains() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Featured Domains</h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="rounded-lg border border-[#e2e8f0] bg-white text-card-foreground shadow-sm domain-card h-full flex flex-col">
               <div className="flex flex-col space-y-1.5 p-6 pb-2">
@@ -27,7 +28,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -106,7 +107,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -185,7 +186,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -264,7 +265,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -343,7 +344,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -420,7 +421,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -499,7 +500,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -578,7 +579,7 @@ export default function FeaturedDomains() {
                   next project.
                 </p>
                 <div className="mb-3 flex flex-wrap gap-2">
-                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit">
+                  <div className="rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 flex items-center gap-1 w-fit bg-[#317ac4] text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
