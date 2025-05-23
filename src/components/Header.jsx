@@ -113,7 +113,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" passHref legacyBehavior>
+                  <Link href="how-it-works" passHref legacyBehavior>
                     <a
                       onClick={() => handleItemClick("HowItWorks")}
                       className={`block py-2 px-3 rounded-sm md:p-0 ${
