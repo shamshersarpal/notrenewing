@@ -28,7 +28,7 @@ export default function Dashboard() {
           <div
             role="tablist"
             aria-orientation="horizontal"
-            className="inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground bg-[#f1f5f9]"
+            className="inline-flex flex-wrap h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground bg-[#f1f5f9]"
             tabIndex={0}
             data-orientation="horizontal"
             style={{ outline: "none" }}
