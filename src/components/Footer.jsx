@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
@@ -15,19 +16,19 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a className="hover:underline" href="/">
-                      Home
-                    </a>
+                    <Link href="/" passHref legacyBehavior>
+                      <a className="hover:underline">Home</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="hover:underline" href="">
-                      Browse Domains
-                    </a>
+                    <Link href="browse-domains" passHref legacyBehavior>
+                      <a className="hover:underline">Browse Domains</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="hover:underline" href="">
-                      My Account
-                    </a>
+                    <Link href=" " passHref legacyBehavior>
+                      <a className="hover:underline">My Account</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -35,19 +36,19 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold mb-4">Resources</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a className="hover:underline" href="">
-                      How It Works
-                    </a>
+                    <Link href="how-it-works" passHref legacyBehavior>
+                      <a className="hover:underline">How It Works</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="hover:underline" href="">
-                      FAQ
-                    </a>
+                    <Link href="faq" passHref legacyBehavior>
+                      <a className="hover:underline">FAQ</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="hover:underline" href="">
-                      Contact Us
-                    </a>
+                    <Link href="contact" passHref legacyBehavior>
+                      <a className="hover:underline">Contact Us</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -55,14 +56,14 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold mb-4">Legal</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a className="hover:underline" href="">
-                      Terms of Service
-                    </a>
+                    <Link href=" " passHref legacyBehavior>
+                      <a className="hover:underline">Terms of Service</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="hover:underline" href="">
-                      Privacy Policy
-                    </a>
+                    <Link href=" " passHref legacyBehavior>
+                      <a className="hover:underline">Privacy Policy</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
