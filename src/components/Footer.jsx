@@ -56,12 +56,12 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold mb-4">Legal</h3>
                 <ul className="space-y-2">
                   <li>
-                    <Link href=" " passHref legacyBehavior>
+                    <Link href="terms-service" passHref legacyBehavior>
                       <a className="hover:underline">Terms of Service</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href=" " passHref legacyBehavior>
+                    <Link href="privacy-policy" passHref legacyBehavior>
                       <a className="hover:underline">Privacy Policy</a>
                     </Link>
                   </li>
